@@ -424,7 +424,7 @@ open class RTMPStream: NetStream {
             while self.readyState == .initialized && !self.isBeingClosed {
                 usleep(100)
             }
-            var fileNameValid: String = "videoName"
+            var fileNameValid: String = name
             if self.info.resourceName == name && self.readyState == .publishing {
                 switch type {
                 case .localRecord:
