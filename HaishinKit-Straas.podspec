@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name          = "HaishinKit"
-  s.version       = "1.0.8"
+  s.name          = "HaishinKit-Straas"
+  s.version       = "1.0.9"
   s.summary       = "Camera and Microphone streaming library via RTMP, HLS for iOS, macOS, tvOS."
   s.swift_version = "5.0"
 
@@ -9,12 +9,11 @@ Pod::Spec.new do |s|
   HaishinKit. Camera and Microphone streaming library via RTMP, HLS for iOS, macOS, tvOS.
   DESC
 
-  s.homepage     = "https://github.com/shogo4405/HaishinKit.swift"
+  s.homepage     = "https://github.com/Straas/HaishinKit.swift"
   s.license      = "New BSD"
-  s.author       = { "shogo4405" => "shogo4405@gmail.com" }
-  s.authors      = { "shogo4405" => "shogo4405@gmail.com" }
-  s.source       = { :git => "https://github.com/shogo4405/HaishinKit.swift.git", :tag => "#{s.version}" }
-  s.social_media_url = "http://twitter.com/shogo4405"
+  s.author       = { "iKala" => "contact@ikala.tv" }
+  s.authors      = { "iKala" => "contact@ikala.tv" }
+  s.source       = { :git => "https://github.com/Straas/HaishinKit.swift.git", :tag => "#{s.version}" }
 
   s.ios.deployment_target = "8.0"
   s.ios.source_files = "Platforms/iOS/*.{h,swift}"
